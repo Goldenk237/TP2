@@ -4,10 +4,12 @@ from tkcalendar import DateEntry
 import mysql.connector
 from datetime import datetime
 
+# Ceci est la seconde version
+
 class FormulaireInscription:
     def __init__(self, root):
         self.root = root
-        self.root.title("Gestion des Inscriptions - CRUD")
+        self.root.title("Gestion des Inscriptions - CRUD version 2")
         self.root.geometry("1400x750")
 
         # Couleurs du thème moderne
